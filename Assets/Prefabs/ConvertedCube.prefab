@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 264141472600615456}
   - component: {fileID: 5807077458213934809}
   - component: {fileID: 5236054841391260218}
+  - component: {fileID: -8650644353238240968}
+  - component: {fileID: 339486813847560882}
   m_Layer: 0
   m_Name: ConvertedCube
   m_TagString: Untagged
@@ -93,3 +95,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ConversionMode: 0
+--- !u!114 &-8650644353238240968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5236054841391260165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d39d651ed1f6f4e0aada4b08c69f0880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Value: 10
+--- !u!114 &339486813847560882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5236054841391260165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf909c8d9facb4d939bad8220aa31110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amplitude: 5
+  xOffset: 0.1
+  yOffset: 0.1
